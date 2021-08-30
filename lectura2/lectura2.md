@@ -1,0 +1,10 @@
+# Semana 2
+## Comentario paper: *Matrix Factorization Techniques for Recommender Systems*
+
+El trabajo leído surge a partir del concurso *Netflix Prize* que sin duda alguna fue un incentivo muy importante para el desarrollo de los sistemas recomendadores. La estrategia descrita es una alternativa al filtro colaborativo. Consiste en obtener un vector para cada item y para cada usuario, que lo describa en una cantidad dada de factores, y a partir de ellos definir espectros de características (por ejemplo, desde comedia hasta horror) y ubicar los items y usuarios según corresponda para cada característica. 
+
+A partir de la idea inicial, se detallan consideraciones adicionales que se pueden tomar y que generan diferentes resultados en las predicciones. Entre ellas, considerar sesgos, feedback implicito y dinámicas temporales. Con respecto a los sesgos, el texto propone que este se considera porque existen personas que tienden a evaluar los items de manera más exigente y por lo tanto tienen peores valoraciones y otras personas que evaluan de manera contaria, con mejores valoraciones. Por otro lado las dinámicas temporales surgen a raíz de que los usuarios cambian con el tiempo su opinión sobre los items. 
+
+Me parece interesante mencionar que podría existir otro aspecto a considerar, que podría ser una mezcla entre ambos conceptos anteriormente mencionados. Los usuarios pueden ser más o menos exigentes al momento de valorar un item según su estado de ánimo, que es variable en el tiempo, incluso podrían existir items que se consumen preferentemente en ciertos estados de ánimo. Por lo que me parece relevante intentar definirlos y evaluar como se comportan las predicciones al incorporarlo.
+
+La Figura 4 del estudio nos presenta el error (RMSE) y el resultado de los distintos modelos con variada cantidad de parámetros. Podemos ver que, para todos los modelos, aumentar la cantidad de parámetros disminuye el RMSE y mejora la predicción. Me parece relevante preguntarnos cuál es el límite en que aumentar la cantidad de parámetros aumente el tiempo en que se realizan las operaciones de manera tal que ya no sea útil mejorar la predicción.
