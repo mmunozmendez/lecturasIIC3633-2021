@@ -1,0 +1,10 @@
+# Semana 3
+## Comentario paper: *Evaluating Recommendation Systems*
+
+El paper correspondiente a esta semana menciona formas de evaluar sistemas recomendadores, para decidir entre varias opciones, cuál es el mejor para una determinada situación. Se explican tipos de experimentos, que puden ser *Offline*, estudios de usuario o *Online*, y propiedades de los sistemas recomendadores, como la confianza, la novedad y la serendipia.
+
+Con respecto a los tipos de experimento es importante recalcar que son todos útiles en diferentes contextos, por lo que es mucho más conveniente utilizarlos todos en distintas etapas del desarrollo de un modelo, en lugar de hacerlos competir para determinar cuál es mejor. Por otro lado las propiedades, tienen de igual manera distintas métricas que se pueden utilizar, creo que la verdadera dificultad es lograr determinar qué métrica va a ser más útil para cada caso, pues estas significan diferentes cosas. Por ejemplo la curva *precision-recall* enfatiza en la proporción de items recomendados que fueron preferidos, mientras que  la curva ROC enfatiza en aquellos items que no fueron preferidos pero fueron recomendados.
+
+Me llamó la atención en la parte de *Utility-based ranking*, la métrica de *R-score* tienen un parámetro que representa los items que le son indiferentes al usuario. Sin bien, esta opción podía ser representada con los puntajes mencionados en ocuaciones anteriores, creo que es importante destacarlo como tal para recordar que los items no necesariamente le gustan o no le gustan a una persona y que no hay una única línea recta entre estas opciones. 
+
+Creo que el artículo tiene mucha información útil, bajo la premisa de que debemos analizar correctamente el problema al que nos enfrentamos y  el uso que queremos darle a un sistema recomendador a la hora de evaluarlo.
