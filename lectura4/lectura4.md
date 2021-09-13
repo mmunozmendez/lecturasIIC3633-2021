@@ -1,0 +1,8 @@
+# Semana 4
+## Comentario paper: *Content-Based Recommendation Systems*
+
+Las recomendaciones basadas en contenido consisten en formar perfiles para usuarios, que representen sus preferencias en cuanto a contenidos, perfiles de items, que reflejen sus contenidos, para posteriormente cruzar esta información y hacer recomendaciones de items para usuarios específicos. El capítulo leído explica distintos métodos que se pueden utilizar para estas tres etapas: formación de perfiles y generar recomendaciones. Cabe destacar que los perfiles no son estáticos en el tiempo, van cambiando con la actividad de los usuarios. 
+
+Al formar los perfiles de usuarios se utiliza información explícita, entregada por el usuario, e implícita, obtenida de la actividad e interacción del usuario con la página. Esto se hace para tener una mayor cantidad de información, dado que la información explícita depende de que cada usuario la entregue, lo que pasa poco. La información implícita si bien está en mayor cantidad, tiene más ruido, pues no se puede asegurar con total certeza que se interprete correctamente lo que estaba haciendo el usuario. 
+
+Esto me hizo pensar en el concepto revisado anteriormente de serendipia, creo que es importante señalar que este uso conjunto de información implícita y explícita la favorece, pues permite contrastar lo que el usuario señala con lo que realmente consume y de esta manera detectar esos aspectos que pueden gustarle, de los que no es consciente y así hacer mejores recomendaciones. 
