@@ -1,0 +1,8 @@
+# Semana 5
+## Comentario paper: *Combining Predictions for Accurate Recommender Systems*
+
+El artículo analiza la aplicación de ensambes de modelos de filtrado colaborativo utilizados en el *Netflix Prize*. Se explican los modelos utilizados y las formas en que estos se combinaron, para finalmente comparar los resultados de estas aplicaciones. Se puede ver que en general combinar modelos disminuye el error medido, por lo que se demuestra que es ventajoso utilizar ensambles. 
+
+Se explica que al tener un gran set de entrenamiento este se puede dividir según tres criterios, que son: *support*, tiempo y frecuencia. Estos caracterizan a los usuarios según cuánto valoran, a qué hora y con cuánta frecuencia respectivamente. Me parece muy interesante que esto permita identificar por ejemplo usuarios que solo utilicen la plataforma durante las noches, o durante los fines de semana; y se esta manera se pueda considerar para realizar la recomendación. 
+
+Me parece que utilizar esta división en conjunto con modelos basados en contenido podría servir para casos de usuarios que comparten cuentas. Por ejemplo, se podría identificar, siguiendo el ejemplo de *Netflix*, un usuario que durante las tardes, entre las 13 y las 16 horas consume películas infantiles, de animales y en español, mientras que a partir de las 20 horas consume películas de misterio, policiales y en idioma original. Si bien la aplicación permite la creación de cuentas para diferentes usuarios, ocurre de igual manera que estas se comparten por los usuarios y sería interesante lograr de manera implícita identificar estas diferentes personas. 
