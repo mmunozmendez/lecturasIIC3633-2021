@@ -1,0 +1,4 @@
+# Semana 6
+## Comentario paper: *Deep Learning Based Recommender System: A Survey ans New Perspectives*
+
+El *deep learning* ha sido sin duda un avance revolucionario, por el impacto que ha tenido en sus diferentes aplicaciones, incluidos los sistemas recomendadores. El texto explica conceptos de manera general, como: sitemas recomendadores y aprendizaje profundo, se señalan técnicas de *Deep Learning*  y sus usos en Sistemas Recomendadores. Con respecto a lo útlimo, se señalan las principales críticas al modelo y se explican casos en los que se logran superar estás dificultades sin problemas. Posteriormente se muestran modelos que se aplican en sistemas recomendadores. 
