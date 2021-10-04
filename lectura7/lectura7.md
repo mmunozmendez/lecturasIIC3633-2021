@@ -1,0 +1,8 @@
+# Semana 7
+## Comentario paper: *Interactive recommender systems: a survey of the state of the art and future research challenges and opportunities*
+
+El trabajo leído hace una revisión sistemática de distintos sistemas de recomendación con interfaces visuales. Se analiza para estos sistemas su transparencia y justificación, el control del usuario, la falta de diversidad, los problemas de *cold start* y la información del contexto. De los sistemas estudiados, la mayoría tuvo como objetivo de la visualización la transparencia y el control de usuario, solo una visualización estaba enfocada en la diversidad del contenido recomendado.
+
+Una de las conclusiones obtenidas en el estudio es que se debía trabajar las interfaces, si bien resultaban útiles y favorecían la experiencia de usuario, todavía podían mejorar significativamente. Creo que este punto ha avanzado enormemente con el tiempo, por ejemplo *Netflix*, toda su página es la interfaz de usuario, que se puede explorar intuiticamente y que permite entender por qué se recomiendan los determinados elementos, por ejemplo con grupos como: "Porque viste <película en específico>, sin que como usuario notemos que nos está mostrando como toma decisiones para recomendarnos contenido. 
+
+Por otro lado, se menciona reiteradamente que la posibilidad de control del usuario sobre la recomendación es favorable y que aumenta su confianza. Me cuesta pensar en ejemplos de aplicaciones que el día de hoy brinden esta opción de control. Creo que es una opción que se ha dejado de lado, por lo menos en plataformas más populares y creo que es interesante preguntarnos por qué se dio esta situación.
